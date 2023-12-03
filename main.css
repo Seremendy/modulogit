@@ -1,16 +1,44 @@
-h1{
-    color:blue
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
 }
 
-
-#warwick h2 {
-    color: gold;
+header {
+    background-color: brown;
+    padding: 16px 0;
 }
 
-#vayne h2 {
-    color: brown;
+h2 {
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
-#rammus h2 {
-    color: chartreuse;
+h2 {
+    color: blue;
+    background-color: black;
+}
+
+.articles article img   {
+     width: 188px;
+}
+
+* {
+    background-color: darkgreen;
+}
+
+article .articles{
+    width: 30%;
+}
+
+header li{
+    display: inline;
+}
+.container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.articles {
+    display: flex;
 }
