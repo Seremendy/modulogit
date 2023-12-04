@@ -28,7 +28,7 @@ header li {
 }
 
 * {
-    background-color: darkcyan;
+    background-color: rgb(40, 235, 235);
 }
 
 h1 {
@@ -36,9 +36,13 @@ h1 {
 }
 
 h2 {
-    color: blueviolet;
+    color: rgb(78, 4, 148);
 }
 
 time {
     color: rgb(229, 165, 165);
+}
+
+h3 {
+    color: rgb(5, 138, 94);
 }
