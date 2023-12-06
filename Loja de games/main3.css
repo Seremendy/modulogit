@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-header h1,
+header,
 section h2,
 section h3,
 form button {
@@ -13,26 +13,25 @@ form button {
 }
 
 body, input, textarea {
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
     padding: 16px 0;
     background-color: blue;
-    color: blanchedalmond;
+    color: white;
 }
 
 header nav li {
     display: inline;
     margin-left: 16px;
+    color: white;
     font-size: 18px;
 }
 
-
 header nav li a {
-    color: blanchedalmond;
+    color: white;
     text-decoration: none;
-    
 }
 
 .container {
@@ -57,16 +56,17 @@ section .container {
     margin-right: 8px;
 }
 
-section .container{
+section .container {
     align-items: flex-start;
 }
 
-section{
+section {
     padding: 24px 0;
 }
 
-section h2{
+section h2 {
     margin-bottom: 16px;
+    color: blue;
 }
 
 section {
@@ -77,7 +77,7 @@ section p {
     margin-bottom: 8px;
 }
 
-.storage {
+.storage-front {
     margin-right: 32px;
 }
 
@@ -94,7 +94,7 @@ section p {
     text-decoration: none;
 }
 
-#contact .container{
+#contact .container {
     display: block;
 }
 
@@ -123,11 +123,21 @@ section h3 {
 
 form button {
     background-color: blue;
-    color: aliceblue;
+    color: white;
     border: none;
-    cursor:pointer
+    cursor: pointer;
 }
 
 form button:hover {
-    background-color: rgb(67, 67, 194);
+    background-color: rgb(80, 80, 248);
+}
+
+input:focus, textarea:focus{
+    outline-color: blue;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    padding: 16px 0;
 }
