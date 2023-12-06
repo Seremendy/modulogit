@@ -29,7 +29,8 @@ header nav li a {
 }
 
 header .container,
-section .cadastro {
+section .container,
+form, h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,4 +44,6 @@ form button {
     padding: 8px;
     cursor: pointer;
 }
+
+
 
