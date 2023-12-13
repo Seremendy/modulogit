@@ -1,6 +1,8 @@
 const form = document.getElementById('form');
 const campoA = document.getElementById('campoA');
 const campoB = document.getElementById('campoB');
+const numeroMaior = document.getElementById('numeroMaior');
+const numeroMenor = document.getElementById('numeroMenor');
 
 function comparacao(campoA, campoB){
     return campoB > campoA;
@@ -9,9 +11,9 @@ function comparacao(campoA, campoB){
 form.addEventListener('submit', function(e){
     e.preventDefault();
 
-    let validarForm = comparacao(campoA.value, campoB.value)
+    let validarForm = comparacao(campoA.valueAsNumbe, campoB.valueAsNumbe)
     if(validarForm){
-        alert('é maior que campo A')
+        
     }else{
         alert('Valor é menor que campo B')
     }
